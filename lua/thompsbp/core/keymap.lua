@@ -36,4 +36,4 @@ keymap.set("n", "<leader>bda", "<cmd>BufDelAll<CR>", { desc = "Close all buffers
 keymap.set("n", "<leader>bdo", "<cmd>BufDelOthers<CR>", { desc = "Close all buffers." })
 
 -- nvim tree
-keymap.set("n", "<C-n>", "<cmd>NvimTreeToggle<CR>", { desc = "Open Nvim Tree File Browser." })
+keymap.set("n", "<leader>ee", "<cmd>NvimTreeToggle<CR>", { desc = "Open Nvim Tree File Browser." })
