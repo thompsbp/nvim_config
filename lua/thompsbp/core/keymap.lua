@@ -31,9 +31,4 @@ keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open the current bu
 --- buffers
 keymap.set("n", "<Tab>", "<cmd>bn<CR>", { desc = "Go to the next tab." })
 keymap.set("n", "<S-Tab>", "<cmd>bp<CR>", { desc = "Go to the previous tab." })
-keymap.set("n", "<leader>x", "<cmd>BufDel<CR>", { desc = "Close the current buffer." })
-keymap.set("n", "<leader>bda", "<cmd>BufDelAll<CR>", { desc = "Close all buffers." })
-keymap.set("n", "<leader>bdo", "<cmd>BufDelOthers<CR>", { desc = "Close all buffers." })
 
--- nvim tree
-keymap.set("n", "<leader>ee", "<cmd>NvimTreeToggle<CR>", { desc = "Open Nvim Tree File Browser." })

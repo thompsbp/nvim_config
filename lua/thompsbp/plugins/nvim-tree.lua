@@ -23,5 +23,8 @@ return {
         ignore = false,
       },
     })
+
+    local keymap = vim.keymap
+    keymap.set("n", "<leader>ee", "<cmd>NvimTreeToggle<CR>", { desc = "Open Nvim Tree File Browser." })
   end
 }
