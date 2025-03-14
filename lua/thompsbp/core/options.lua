@@ -12,6 +12,7 @@ opt.expandtab = true -- expand tab to spaces
 opt.autoindent = true -- copy indent from current line when starting a new one
 
 opt.wrap = false -- turn off line wrapping
+opt.scrolloff = 10
 
 -- search settings
 opt.ignorecase = true -- ignore case when searching
