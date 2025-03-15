@@ -29,8 +29,8 @@ keymap.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Go to the previous tab.
 keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open the current buffer in a new tab." })
 
 --- buffers
-keymap.set("n", "<Tab>", "<cmd>bn<CR>", { desc = "Go to the next tab." })
-keymap.set("n", "<S-Tab>", "<cmd>bp<CR>", { desc = "Go to the previous tab." })
+keymap.set("n", "<Tab>", "<cmd>bn<CR>", { desc = "Go to the next buffer." })
+keymap.set("n", "<S-Tab>", "<cmd>bp<CR>", { desc = "Go to the previous buffer." })
 
 --- terminal
 keymap.set("n", "<A-h>", ":ToggleTerm direction=horizontal<CR>", { desc = "Open a horizontal terminal." })
