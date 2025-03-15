@@ -33,6 +33,7 @@ keymap.set("n", "<Tab>", "<cmd>bn<CR>", { desc = "Go to the next tab." })
 keymap.set("n", "<S-Tab>", "<cmd>bp<CR>", { desc = "Go to the previous tab." })
 
 --- terminal
-keymap.set("n", "<C-t>h", ":ToggleTerm direction=horizontal<CR>", { desc = "Open a horizontal terminal." })
-keymap.set("n", "<C-t>v", ":ToggleTerm direction=vertical<CR>", { desc = "Open a vertical terminal." })
+keymap.set("n", "<A-h>", ":ToggleTerm direction=horizontal<CR>", { desc = "Open a horizontal terminal." })
+keymap.set("n", "<A-v>", ":ToggleTerm direction=vertical<CR>", { desc = "Open a vertical terminal." })
+keymap.set("n", "<A-i>", ":ToggleTerm direction=float<CR>", { desc = "Open a floating terminal." })
 keymap.set("t", "<ESC>", "<C-\\><C-n>", { desc = "Disconnect from the terminal but leave it open." })
