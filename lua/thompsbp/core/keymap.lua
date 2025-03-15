@@ -1,4 +1,4 @@
-vim.g.mapleader = ' '
+vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
 local keymap = vim.keymap -- for concisenes
@@ -32,3 +32,7 @@ keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open the current bu
 keymap.set("n", "<Tab>", "<cmd>bn<CR>", { desc = "Go to the next tab." })
 keymap.set("n", "<S-Tab>", "<cmd>bp<CR>", { desc = "Go to the previous tab." })
 
+--- terminal
+keymap.set("n", "<C-t>h", ":ToggleTerm direction=horizontal<CR>", { desc = "Open a horizontal terminal." })
+keymap.set("n", "<C-t>v", ":ToggleTerm direction=vertical<CR>", { desc = "Open a vertical terminal." })
+keymap.set("t", "<ESC>", "<C-\\><C-n>", { desc = "Disconnect from the terminal but leave it open." })
